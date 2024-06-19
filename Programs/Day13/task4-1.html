@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num" placeholder="Enter the number"><br><br>
+    <button onclick="cal()">Click</button>
+    <h1 id="getans"></h1>
+</body>
+<script>
+    
+    function cal()
+    {
+        let no = parseInt(document.getElementById("num").value);
+        const ans = document.getElementById("getans");
+        let fibo = "";
+        let first = 0;
+        let second = 1;
+        let next;
+        let i;
+        
+        fibo += " " + first + " " +second + " after next:- ";
+        
+        for(i=1;i<=no;i++)
+        {
+            next = first + second;
+            fibo += " " +next;
+            first = second;
+            second = next;
+        }
+        ans.innerText = fibo;
+    }
+    
+</script>
+</html>

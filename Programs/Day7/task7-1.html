@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let storedPassword = "Yash123";
+
+    const currentPassword = prompt("Enter your current password:");
+
+    if (currentPassword === storedPassword) {
+
+        let newPassword = prompt("Enter your new password:");
+
+        if (newPassword.length >= 8 &&
+            /[A-Z]/.test(newPassword) &&
+            /[a-z]/.test(newPassword) &&
+            /\d/.test(newPassword)) {
+            alert("Password changed successfully!");
+            storedPassword = newPassword;
+        } else {
+            alert("Error: Your new password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one number.");
+        }
+    } else {
+        alert("Error: Incorrect current password.");
+    }
+
+</script>
+</html>
