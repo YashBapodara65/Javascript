@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num">
+    <button type="button" onclick="cal()">Click</button>
+    <h1 id="ans"></h1>
+</body>
+<script>
+
+    function cal()
+    {
+
+        let no = document.getElementById("num").value;
+        let first = 0;
+        let second = 1;
+        let next;
+        
+        function facb(no)
+        {
+            if(no == 1)
+            {
+                return 0;
+            }
+            else if(no == 2)
+            {
+                return 1;
+            }
+            else
+            {   
+                for(let i=2; i<=no; i++)
+                {
+                    next = first + second;
+                    first = second;
+                    second = next; 
+                }
+                return next;
+            }
+        }
+
+        document.getElementById("ans").innerText = facb(no);
+        
+    }
+
+</script>
+</html>

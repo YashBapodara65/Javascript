@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num"><br><br>
+    <button type="button" onclick="cal()">Click</button>
+    <h1 id="getans"></h1>
+</body>
+<script>
+    function cal()
+    {
+        let digit = parseInt(document.getElementById("num").value);
+        let ans = document.getElementById("getans");
+        
+        function add(no)
+        {
+            if(no<=0)
+            {
+                return 0;
+            }
+            return no + add(no-1);
+        }
+        
+        // console.log("sum is :- ",add(digit));
+
+        ans.innerText = "Sum of numbers is :- " +add(digit);
+
+    }
+</script>
+</html>

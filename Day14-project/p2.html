@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num"><br><br>
+    <button type="button" onclick="call()">Click</button>
+    <h1 id="getans"></h1>
+</body>
+<script>
+    function call()
+    {
+        let no = parseInt(document.getElementById("num").value);
+        let ans = document.getElementById("getans");
+        let i;
+        let data = "";
+
+        for(i=1;i<=no;i++)
+        {
+            if(i%3==0 || i%5==0)
+            {
+                data += i + " ";
+            }
+        }
+        
+        ans.innerText = data;
+
+    }
+</script>
+</html>
