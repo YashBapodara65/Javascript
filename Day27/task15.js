@@ -4,6 +4,7 @@ let book = {
     "pages" : 400,
 };
 
-console.log("title : " +book.title);
-console.log("author : " +book.author);
-console.log("pages : " +book.pages);
+for(let k in book)
+{
+    console.log(`${k} : ${book[k]}`);
+}
