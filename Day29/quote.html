@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+
+    body{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .box{
+        background: linear-gradient(rgba(253, 253, 253, 0.772),rgba(253, 253, 253, 0.772));
+        width: 70%;
+    }
+
+    button{
+        font-size: 18px;
+        color: white;
+        background: black;
+        border: 2px solid black;
+        transition: 0.3s;
+    }
+
+    button:hover{
+        border: 2px solid black;
+        background: transparent;
+        color: black;
+    }
+
+    @media(max-width:992px)
+    {
+        .box{
+            width: 95%;
+        }   
+    }
+
+    @media(max-width:768px)
+    {
+        .box{
+            width: 100%;
+        }   
+    }
+
+</style>
+</head>
+<body>
+    <div class="container area d-flex justify-content-center align-items-center">
+        <!-- <div class="container d-flex justify-content-center align-items-center"> -->
+            <div class="box p-3 mt-5 mb-5 d-flex justify-content-center align-items-center flex-column" style="border-radius: 50px;">
+                <div class="main d-flex justify-content-center align-items-center flex-column">
+                    <div id="q" class="pt-5 ps-5 pe-5"></div>
+                    <hr style="width: 80%;" class="border-3 border-primary">
+                </div>
+                <button onclick="cal()" class="mb-5 mt-3 ps-4 pt-2 pb-2 pe-4">New Quote</button>
+            </div>
+        <!-- </div> -->
+    </div>
+</body>
+<script src="./quote.js"></script>
+</html>
