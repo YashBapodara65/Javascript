@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+    <div class="mbox">
+        <div class="contents">
+            <div class="modal-box">
+                <i class="fa-solid fa-xmark"></i>
+                <h1>Login Form</h1>
+                <form action="">
+                    <div class="data">
+                        <label class="lbl">Enter Your EmailID</label>
+                        <input type="email">
+                    </div>
+                    <div class="data">
+                        <label class="lbl">Enter Your Password</label>
+                        <input type="password">
+                    </div>
+                    <button>Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="s1">
+            <div class="row w-100 d-flex justify-content-between">
+                <div class="mains1 col-3">
+                    <div class="s1d1 u1 d-flex justify-content-center align-items-center pt-2 pb-2 p-0">
+                        <i class="bi bi-envelope-fill fs-6"></i>
+                        <h3 class="ps-3 fs-6 m-0">hello.colorlib@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="mains2 col-3">
+                    <div class="s1d2 d-flex justify-content-start align-items-center pt-2 pb-2">
+                        <i class="bi bi-telephone-fill fs-6 ps-3"></i>
+                        <h3 class="fs-6 m-0 ps-3">+65 11 188 888</h3>
+                    </div>
+                </div>
+                <div class="mains3 col-2">
+                    <div class="s1d3 d-flex justify-content-end align-items-center pt-2 pb-2">
+                        <a href=""><i class="bi bi-facebook fs-6"></i></a>
+                        <a href="" class="ms-3"><i class="bi bi-twitter fs-6"></i></a>
+                        <a href="" class="ms-3"><i class="bi bi-linkedin fs-6"></i></a>
+                        <a href="" class="ms-3 me-2"><i class="bi bi-pinterest fs-6"></i></a>
+                    </div>
+                </div>
+                <div class="s1d4 col-2 d-flex justify-content-center align-items-center pt-2 pb-2 p-0">
+                    <button style="background: none;" id="login" class="d-flex border-0 justify-content-center align-items-center text-decoration-none"><i class="bi bi-person-fill"></i>
+                        <h3 class="fs-6 m-0 ps-3">Login</h3></button>
+                </div>
+            </div>
+    </section>
+
+</body>
+
+<script>
+
+    const btn = document.querySelector("#login");
+    const modal = document.querySelector(".mbox");
+    const closeMdl = document.querySelector(".fa-xmark");
+
+    function openModal()
+    {
+        modal.classList.toggle("show");
+    }
+
+    function closeModal()
+    {
+        modal.classList.remove("show");
+    }
+
+    function windowModal(event)
+    {
+        if(event.target === modal)
+        {
+            // closeModal();
+            console.log("true");
+        }
+        else
+        {
+            console.log("false");
+
+        }
+    }
+
+    btn.addEventListener("click",openModal);
+    closeMdl.addEventListener("click",closeModal);
+    window.addEventListener("click",windowModal);
+
+</script>
+
+</html>
