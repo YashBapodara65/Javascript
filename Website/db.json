@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "fc60",
+      "email": "yash@gmail.com",
+      "mobile_no": "8849881157",
+      "username": "Yash Bapodara",
+      "dob": "2003-09-04",
+      "password": "Yash@1234"
+    },
+    {
+      "id": "80ab",
+      "email": "demo@gmail.com",
+      "mobile_no": "1234567890",
+      "username": "Demo",
+      "dob": "2024-09-06",
+      "password": "demo@1234"
+    }
+  ],
+  "products1": [
+    {
+      "id": "61",
+      "ImageURL": "./images/p2.jpg",
+      "ImageTitle": "REESKY Gold Stainless Steel Analog Men's Watch",
+      "ImagePrice": 463,
+      "ImageRating": "4.1",
+      "ImageOffer": "77"
+    },
+    {
+      "id": "62",
+      "ImageURL": "./images/p5.jpg",
+      "ImageTitle": "Hangup - Black Cotton Regular Fit Men's Pathani Suit ( Pack of 1 )",
+      "ImagePrice": 1251,
+      "ImageRating": "3.9",
+      "ImageOffer": "84"
+    },
+    {
+      "id": "63",
+      "ImageURL": "./images/p1.jpg",
+      "ImageTitle": "REESKY Gold Stainless Steel Analog Men's Watch",
+      "ImagePrice": 794,
+      "ImageRating": "4.1",
+      "ImageOffer": "74"
+    },
+    {
+      "id": "64",
+      "ImageURL": "./images/p3.jpeg",
+      "ImageTitle": "Battlestar - Tummy Trimmer ( Pack of 1 )",
+      "ImagePrice": 353,
+      "ImageRating": "4.2",
+      "ImageOffer": "71"
+    },
+    {
+      "id": "65",
+      "ImageURL": "./images/p6.jpg",
+      "ImageTitle": "Preen Black Cotton Blend Regular Fit Men's Kurta Pyjama Set ( Pack of 1 )",
+      "ImagePrice": 631,
+      "ImageRating": "3.7",
+      "ImageOffer": "75"
+    },
+    {
+      "id": "66",
+      "ImageURL": "./images/p7.jpg",
+      "ImageTitle": "PRINTCULTR Black Cotton Regular Fit Men's Kurta Pyjama Set ( Pack of 1 )",
+      "ImagePrice": 1059,
+      "ImageRating": "3.6",
+      "ImageOffer": "78"
+    },
+    {
+      "id": "67",
+      "ImageURL": "./images/p8.jpg",
+      "ImageTitle": "Fashionfricks Pink Cotton Blend Regular Fit Men's Kurta Pyjama Set ( Pack of 1 )",
+      "ImagePrice": 738,
+      "ImageRating": "3.9",
+      "ImageOffer": "51"
+    },
+    {
+      "id": "68",
+      "ImageURL": "./images/p9.jpg",
+      "ImageTitle": "KLOSET By RIAG - Beige Cotton Regular Fit Men's Kurta Pyjama Set ( Pack of 2 )",
+      "ImagePrice": 699,
+      "ImageRating": "3.5",
+      "ImageOffer": "83"
+    },
+    {
+      "id": "69",
+      "ImageURL": "./images/p4.png",
+      "ImageTitle": "Balaji's Dark Green Cotton Blend Regular Fit Men's Kurta Pyjama Set ( Pack of 1 )",
+      "ImagePrice": 452,
+      "ImageRating": "4.1",
+      "ImageOffer": "82"
+    }
+  ],
+  "products2": [
+    {
+      "id": "71",
+      "ImageURL": "./images/b1.jpeg",
+      "ImageTitle": "Shiv Trishul Damru Gold-plated Locket with Rudraksha Mala",
+      "ImagePrice": 105,
+      "ImageRating": "3.9",
+      "ImageOffer": "82"
+    },
+    {
+      "id": "72",
+      "ImageURL": "./images/b5.jpg",
+      "ImageTitle": "Gazal Fashions - Maroon Banarasi Silk Saree With Blouse Piece (Pack of 1)",
+      "ImagePrice": 427,
+      "ImageRating": "4.0",
+      "ImageOffer": "89"
+    },
+    {
+      "id": "73",
+      "ImageURL": "./images/b4.jpeg",
+      "ImageTitle": "Men's Trendy Artificial Brass Gold Plated Lotus Chain",
+      "ImagePrice": 269,
+      "ImageRating": "3.7",
+      "ImageOffer": "55"
+    },
+    {
+      "id": "74",
+      "ImageURL": "./images/b3.jpeg",
+      "ImageTitle": "Happy Stoning - 22kt Gold Plated Chain ( Pack of 1 )",
+      "ImagePrice": 227,
+      "ImageRating": "4.2",
+      "ImageOffer": "87"
+    },
+    {
+      "id": "75",
+      "ImageURL": "./images/b2.jpg",
+      "ImageTitle": "Anand Sarees - Yellow Georgette Saree With Blouse Piece (Pack of 1)",
+      "ImagePrice": 260,
+      "ImageRating": "3.9",
+      "ImageOffer": "80"
+    },
+    {
+      "id": "76",
+      "ImageURL": "./images/b9.jpg",
+      "ImageTitle": "Stay Healthy - Foot Protector (Free Size)",
+      "ImagePrice": 96,
+      "ImageRating": "3.8",
+      "ImageOffer": "89"
+    },
+    {
+      "id": "77",
+      "ImageURL": "./images/b8.jpg",
+      "ImageTitle": "Maxbell USB Rechargeable Electronic Flameless Lighter",
+      "ImagePrice": 172,
+      "ImageRating": "3.8",
+      "ImageOffer": "81"
+    },
+    {
+      "id": "78",
+      "ImageURL": "./images/b6.jpeg",
+      "ImageTitle": "Aadi Black Casual Shoes",
+      "ImagePrice": 331,
+      "ImageRating": "3.6",
+      "ImageOffer": "67"
+    },
+    {
+      "id": "79",
+      "ImageURL": "./images/b7.jpg",
+      "ImageTitle": "Bentag kitchenware Vegetable & Fruit Clever Cutter Stainless Steel Vegetable Scissor",
+      "ImagePrice": 139,
+      "ImageRating": "3.8",
+      "ImageOffer": "72"
+    }
+  ],
+  "carts": [
+    {
+      "id": "62",
+      "ImageURL": "./images/p5.jpg",
+      "ImageTitle": "Hangup - Black Cotton Regular Fit Men's Pathani Suit ( Pack of 1 )",
+      "ImagePrice": 1251,
+      "ImageRating": "3.9",
+      "ImageOffer": "84",
+      "ImageQty": 1,
+      "UserEmailID": "demo@gmail.com"
+    },
+    {
+      "id": "63",
+      "ImageURL": "./images/p1.jpg",
+      "ImageTitle": "REESKY Gold Stainless Steel Analog Men's Watch",
+      "ImagePrice": 794,
+      "ImageRating": "4.1",
+      "ImageOffer": "74",
+      "ImageQty": 1,
+      "UserEmailID": "demo@gmail.com"
+    }
+  ]
+}

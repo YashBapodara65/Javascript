@@ -1,0 +1,185 @@
+.s1
+{
+    width: 100%;
+    background-color: #c6003d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s1 h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.s1 .s1d1
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.s1 .s1d1 a
+{
+    text-decoration: none;
+}
+
+.s2
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #e40046;
+}
+
+.s2 form
+{
+    width: 50%;
+    height: 40px;
+}
+
+.s2 form input
+{
+    width: 80%;
+    outline: none;
+}
+
+.s2 .badge
+{
+    top: -10%;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -60%;
+}
+
+.users
+{
+    position: relative;
+    transition: 0.3s;
+}
+
+.users:hover
+{
+    background-color: black;
+}
+
+.users:hover .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.submenu{
+    position: absolute;
+    list-style: none;
+    transition: 0.3s;
+    bottom: -210%;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    left: -85%;
+    background-color: black;
+}
+
+.submenu h1 a
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s5 .s5d1 img
+{
+    width: 100%;
+}
+
+.s6
+{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.s6 a
+{
+    border: 1px solid gray;
+    width: 25%;
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+}
+
+.s6 a p
+{
+    color: gray;
+}
+
+.s7 .s7d1
+{
+    width: 22%;
+}
+
+.s7 .s7d2
+{
+    width: 13%;
+}
+
+.s7 .s7d3
+{
+    width: 17%;
+}
+
+.s7 .s7d4
+{
+    width: 14%;
+}
+
+.s7 .s7d5
+{
+    width: 24%;
+}
+
+.s7 .s7d1 ul, .s7 .s7d2 ul, .s7 .s7d3 ul, .s7 .s7d4 ul
+{
+    list-style: none;
+}
+
+.s7 .s7d1 ul li a, .s7 .s7d2 ul li a, .s7 .s7d3 ul li a, .s7 .s7d4 ul li a
+{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.s7 .s7d1 ul li a:hover, .s7 .s7d2 ul li a:hover, .s7 .s7d3 ul li a:hover, .s7 .s7d4 ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.s7 .s7d5 form
+{
+    height: 35px;
+}
+
+.s7 .s7d5 form input
+{
+    background-color: #f7f7f7;
+}
+
+.s7 .s7d5 p
+{
+    color: gray;
+}
+
+.s7 .s7d5 p a
+{
+    color: rgb(18, 129, 172);
+}
+
+.s8 .links img
+{
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,442 @@
+.s1
+{
+    width: 100%;
+    background-color: #c6003d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s1 h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+.s1 .s1d1
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.s1 .s1d1 a
+{
+    text-decoration: none;
+}
+
+.s2
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #e40046;
+}
+
+.s2 form
+{
+    width: 50%;
+}
+
+.s2 form input
+{
+    width: 80%;
+    outline: none;
+}
+
+.s2 .badge
+{
+    top: -10%;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -60%;
+}
+
+.users
+{
+    position: relative;
+    transition: 0.3s;
+}
+
+.users:hover
+{
+    background-color: black;
+}
+
+.users:hover .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.submenu{
+    position: absolute;
+    list-style: none;
+    transition: 0.3s;
+    bottom: -210%;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    left: -85%;
+    background-color: black;
+}
+
+.submenu h1 a
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s3
+{
+    background-color: #f7f7f7;
+}
+
+.s3 aside
+{
+    width: 230px;
+}
+
+.s3 aside h1
+{
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.s3 aside .user img
+{
+    width: 35px;
+    height: 40px;
+}
+
+.s3 aside .user p
+{
+    font-size: 14px;
+}
+
+.s3 aside ul
+{
+    list-style: none;
+}
+
+.s3 aside ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.s3 aside a
+{
+    font-size: 14px;
+    color: gray;
+}
+
+.s3 aside .scan img
+{
+    width: 70px;
+    height: 70px;
+}
+
+.s3 aside .scan h2
+{
+    font-size: 12px;
+}
+
+.s3 aside .scan p
+{
+    font-size: 12px;
+}
+
+.s3 .s3d1
+{
+    width: 1050px;
+}
+
+.s3 .s3d1 .swiperSlides
+{
+    width: 70%;
+    height: 350px;
+    border: 2px solid rgb(208, 208, 208);
+}
+
+.s3 .s3d1 .swiperSlides .swiper {
+    width: 100%;
+    height: 300px;
+}
+
+.s3 .s3d1 .swiperSlides .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3 .s3d1 .swiperSlides .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.s3 .s3d1 .swiperSlides .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.s3 .s3d1 .swiperSlides .swiper .bi-chevron-left
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.s3 .s3d1 .swiperSlides .swiper .bi-chevron-right
+{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.s3 .s3d1 .swiperSlides .contains
+{
+    height: 50px;
+}
+
+.s3 .s3d1 .pincode
+{
+    border: 2px solid rgb(208, 208, 208);
+    width: 28%;
+    height: 350px;
+}
+
+.s3 .s3d1 .pincode img
+{
+    height: 100px;
+    width: 150px;
+}
+
+.s3 .s3d1 .recent-products
+{
+    width: 100%;
+}
+
+.s3 .s3d1 .recent-products h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s3 .s3d1 .recent-products .slides
+{
+    width: 100%;
+}
+
+.s3 .s3d1 .recent-products .slides .slider {
+    width: 100%;
+}
+
+.s3 .s3d1 .recent-products .slides .slick-slide {
+  margin: 20px 7px;
+}
+
+.s3 .s3d1 .recent-products .slides .slick-slide img {
+  width: 100%;
+  height: 230px;
+}
+
+.s3 .s3d1 .recent-products .slides .slider .sl1 h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s3 .s3d1 .recent-products .slides .slider .sl1 .star
+{
+    display: flex;
+    gap: 5px;
+    color: orange;
+    font-size: 12px;
+}
+
+.s3 .s3d1 .recent-products .slides .slider .sl1 h4
+{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 16px;
+}
+
+.s3 .s3d1 .recent-products .slides .slider .sl1 h5
+{
+    font-size: 16px;
+}
+
+.s3 .s3d1 .recent-products .slides .slider .sl1 button
+{
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 13px;
+}
+
+.s4
+{
+    background-color: #f7f7f7;
+}
+
+.s4 .recent-products
+{
+    width: 100%;
+}
+
+.s4 .recent-products h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s4 .recent-products .slides
+{
+    width: 100%;
+}
+
+.slider-item
+{
+    transition: 0.15s ease-in-out;
+}
+
+.slider-item:hover
+{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.s5
+{
+    background: #f7f7f7;
+}
+
+.s5 .container
+{
+    position: relative;
+}
+
+.s5 .data h1
+{
+    width: 80%;
+}
+
+.s5 .data a
+{
+    background-color: black;
+    color: white;
+}
+
+.s5 .data a p
+{
+    font-size: 12px;
+} 
+
+.s5 .data a h2
+{
+    font-size: 17px;
+}
+
+.s5 .tree
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.s6 a
+{
+    text-decoration: none;
+    border: 1px solid gray;
+    color: rgb(67, 67, 67);
+}
+
+.s6 a p
+{
+    color: gray;
+}
+
+.s7 .s7d1 ul, .s7 .s7d2 ul, .s7 .s7d3 ul, .s7 .s7d4 ul
+{
+    list-style: none;
+}
+
+.s7 .s7d1 ul li a, .s7 .s7d2 ul li a, .s7 .s7d3 ul li a, .s7 .s7d4 ul li a
+{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.s7 .s7d1 ul li a:hover, .s7 .s7d2 ul li a:hover, .s7 .s7d3 ul li a:hover, .s7 .s7d4 ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.s7 .s7d5 form input
+{
+    background-color: #f7f7f7;
+}
+
+.s7 .s7d5 p
+{
+    color: gray;
+}
+
+.s7 .s7d5 p a
+{
+    color: rgb(18, 129, 172);
+}
+
+.s8 .links img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.s9 a
+{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.s9 a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.s9 p
+{
+    color: gray;
+}

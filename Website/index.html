@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+</head>
+
+<body>
+
+    <section class="s1 pt-1 pb-1">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="m-0 text-white">Brand Waali Quality, Bazaar Waali Deal!</h1>
+            <div class="s1d1">
+                <a href="" class="text-white">Impact@Snapdeal</a>
+                <a href="" class="text-white">Help Center</a>
+                <a href="" class="text-white">Sell On Snapdeal</a>
+                <a href="" class="text-white"><i class="bi bi-phone"></i>Download App</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2 pt-3 pb-3">
+        <div class="container d-flex justify-content-between">
+            <img src="./images/logo.svg" alt="">
+            <form action="" class="d-flex justify-content-center align-items-stretch">
+                <input type="text" class="border-0 ps-4 pt-1 pb-1 fs-6" placeholder="Search products & brands">
+                <button type="submit" class="btn btn-dark rounded-0 d-flex gap-2"><i
+                        class="bi bi-search"></i>Search</button>
+            </form>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <a href="./cart.html"
+                    class="carts text-white text-decoration-none d-flex gap-3 justify-content-center align-items-center">
+                    <h4 class="m-0 fs-6 fw-normal">Cart</h4>
+                    <div class="position-relative">
+                        <i class="bi bi-cart fs-5"></i>
+                        <span class="badge"></span>
+                    </div>
+                </a>
+                <span style="cursor: pointer;"
+                class="users ps-4 pt-2 pb-2 pe-4 position-relative text-white text-decoration-none d-flex gap-3 justify-content-center align-items-center">
+                <h4 class="m-0 fs-6 text-white fw-normal" id="user"></h4>
+                <i class="bi bi-person-fill fs-5 d-flex justify-content-center align-items-center rounded-circle"
+                    style="width: 40px; height: 40px; background: linear-gradient(rgba(0, 0, 0, 0.223),rgba(0,0,0,0.223));"></i>
+                <ul class="submenu shadow-lg p-0">
+                    <li class="pt-3">
+                        <h1 class="m-0 fs-6 ps-3"><a href="" style="color: rgb(212, 211, 211);" class="text-decoration-none"><i class="fa-solid fa-cubes"></i>&nbsp;&nbsp;Orders</a></h1>
+                    </li>
+                    <hr>
+                    <li class="pb-3">
+                        <h1 class="m-0 fs-6 ps-3"><span style="color: rgb(212, 211, 211);;" class="text-decoration-none" id="logout">Logout</span></h1>
+                    </li>
+                </ul>
+            </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="s3 pt-4 pb-4 d-flex justify-content-center align-items-center">
+        <div class="container d-flex justify-content-between align-items-start">
+            <aside class="">
+                <div class="aside-in shadow p-4 bg-white">
+                    <h1>Top Categories</h1>
+                <div class="user mt-3 d-flex justify-content-start gap-2 align-items-center">
+                    <img src="./images/u1.jpg" alt="">
+                    <p class="m-0">Men's Fashion</p>
+                </div>
+                <div class="user mt-2 d-flex justify-content-start gap-2 align-items-center">
+                    <img src="./images/u2.jpg" alt="">
+                    <p class="m-0">Women's Fashion</p>
+                </div>
+                <div class="user mt-2 d-flex justify-content-start gap-2 align-items-center">
+                    <img src="./images/u3.jpg" alt="">
+                    <p class="m-0">Home & Kitchen</p>
+                </div>
+                <div class="user mt-2 d-flex justify-content-start gap-2 align-items-center">
+                    <img src="./images/u4.jpg" alt="">
+                    <p class="m-0">Toys, Kid's Fashion</p>
+                </div>
+                <div class="user mt-2 pb-2 d-flex justify-content-start gap-2 align-items-center">
+                    <img src="./images/u5.jpg" alt="">
+                    <p class="m-0">Beauty & Health</p>
+                </div>
+                <h1 class="mt-3">More Categories</h1>
+                <ul class="p-0 pb-2">
+                    <li class="mt-2"><a href="">Automotives</a></li>
+                    <li class="mt-1"><a href="">Mobile & Accessories</a></li>
+                    <li class="mt-1"><a href="">Electronics</a></li>
+                    <li class="mt-1"><a href="">Sports, Fitness & Outdoor</a></li>
+                    <li class="mt-1"><a href="">Computers & Gaming</a></li>
+                    <li class="mt-1"><a href="">Books, Media & Music</a></li>
+                    <li class="mt-1"><a href="">Hobbies</a></li>
+                </ul>
+                <h1 class="mt-3">Trending Searches</h1>
+                <a href="" class="d-flex justify-content-start align-items-center text-decoration-none gap-2 mt-3"><i class="fa-solid fa-magnifying-glass"></i>Kitchen Product</a>
+                <a href="" class="d-flex justify-content-start align-items-center text-decoration-none gap-2 mt-2"><i class="fa-solid fa-magnifying-glass"></i>Shoes For Men</a>
+                <a href="" class="d-flex justify-content-start align-items-center text-decoration-none gap-2 mt-2"><i class="fa-solid fa-magnifying-glass"></i>Kurti Set</a>
+                <a href="" class="d-flex justify-content-start align-items-center text-decoration-none gap-2 mt-2"><i class="fa-solid fa-magnifying-glass"></i>Sandal Men</a>
+                <a href="" class="d-flex justify-content-start align-items-center text-decoration-none gap-2 mt-2"><i class="fa-solid fa-magnifying-glass"></i>Sport Shoe Men</a>
+                </div>
+                <div class="scan mt-5 d-flex justify-content-start align-items-center gap-2">
+                    <img src="./images/scan.png" alt="">
+                    <div class="txt d-flex flex-column justify-content-evenly">
+                        <h2 class="m-0">Enjoy Convenient Order Tracking</h2>
+                        <p class="m-0 mt-1">Scan to download app</p>
+                    </div>
+                </div>
+            </aside>
+            <div class="s3d1 d-flex justify-content-between align-items-center flex-wrap">
+                <div class="swiperSlides overflow-hidden shadow">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/sl1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl5.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl6.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl7.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/sl8.jpg" alt="">
+                            </div>
+                        </div>
+                        <i class="bi bi-chevron-left shadow"></i>
+                        <i class="bi bi-chevron-right shadow"></i>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                    </div>
+                    <div class="contains w-100 d-flex justify-content-between">
+                        <button class="border-0 bg-white pt-3 ps-4 pb-3">ONDC Store</button>
+                        <button class="border-0 bg-white pt-3 pb-3">BOBCARD</button>
+                        <button class="border-0 bg-white pt-3 pb-3">India @100 : Envisioning To...</button>
+                        <button class="border-0 bg-white pt-3 pb-3">Sports Footwear</button>
+                        <button class="border-0 bg-white pt-3 pe-4 pb-3">ETHNIC WEAR</button>
+                    </div>
+                </div>
+                <div class="pincode shadow p-3 d-flex flex-column justify-content-evenly align-items-center">
+                    <img src="./images/pincode.png" alt="">
+                    <p class="m-0">Your Delivery Pincode</p>
+                    <hr class="w-25">
+                    <label class="text-center">Enter your pincode to check availability and faster delivery
+                        options</label>
+                    <form action="" class="mt-2  d-flex flex-column justify-content-evenly w-100">
+                        <input type="tel" placeholder="Enter pincode" class="ps-2">
+                        <div class="mt-2">
+                            <button type="submit" class="btn btn-dark rounded-0 ps-5 pe-5 text-uppercase"
+                                style="font-size: 15px;">Submit</button>
+                            <button type="button" class="btn rounded-0 text-uppercase ps-4 pe-4"
+                                style="font-size: 15px; background-color: rgb(228, 228, 228);">Next</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="recent-products mt-5">
+                    <h1 class="fs-5 text-uppercase m-0 mb-4">Recently Viewed Products</h1>
+                    <div class="slides bg-white">
+                        <div class="product-slider m-0"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s4 pt-5">
+        <div class="recent-products p-0 container pb-5">
+            <h1 class="fs-5 text-uppercase m-0 mb-4">Trending Products</h1>
+            <div class="slides bg-white pb-3 ps-3 pe-3">
+                <div class="product-slider2 m-0"></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="s5 pb-5">
+        <div class="container bg-white d-flex justify-content-between align-items-center">
+            <img src="./images/mobile.png" alt="">
+            <div class="data">
+                <h1 class="m-0 display-5 fw-bold">Download Snapdeal App Now</h1>
+                <p class="m-0 fs-5 mt-4">Fast, Simple & Delightful.</p>
+                <p class="m-0 fs-5 mt-2">All it takes is 30 seconds to Download</p>
+                <div class="btns d-flex gap-4 mt-5 justify-content-start align-items-center">
+                    <a href="" class="d-flex p-2 rounded-2 text-decoration-none gap-2 justify-content-start align-items-center">
+                        <i class="fa-brands fs-2 fa-apple"></i>
+                        <div class="txt d-flex flex-column">
+                            <p class="m-0">Download on the</p>
+                            <h2 class="m-0">App Store</h2>
+                        </div>
+                    </a>
+                    <a href="" class="d-flex p-2 rounded-2 text-decoration-none gap-2 justify-content-start align-items-center">
+                        <i class="fa-brands fa-google-play fs-2"></i>
+                        <div class="txt d-flex flex-column">
+                            <p class="m-0">Android app on</p>
+                            <h2 class="m-0">Google play</h2>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <img src="./images/green.png" class="tree" alt="">
+        </div>
+    </section>
+
+    <section class="s6">
+        <div class="container d-flex p-0 justify-content-center align-items-center">
+            <div class="row w-100 justify-content-center align-items-center">
+                <a href="" class="col-lg-3 col-md-5 d-flex p-3 flex-column justify-content-evenly align-items-center gap-3">
+                    <i class="fa-solid fa-lock fs-1"></i>
+                    <h1 class="m-0 fs-4 text-center">100% Secure Payments</h1>
+                    <p class="m-0 text-center">Moving your card details to a much more secured place</p>
+                </a>
+                <a href="" class="col-lg-3 col-md-5 d-flex p-3 flex-column justify-content-evenly align-items-center gap-3">
+                    <i class="fa-solid fa-shield-halved fs-1"></i>
+                <h1 class="m-0 fs-4 text-center">Trustpay</h1>
+                <p class="m-0 text-center">100% Payment Protection. Easy Return Policy</p>
+            </a>
+            <a href="" class="col-lg-3 col-md-5 d-flex p-3 flex-column justify-content-evenly align-items-center gap-3">
+                <i class="fa-solid fa-headset fs-1"></i>
+                <h1 class="m-0 fs-4 text-center">Help Center</h1>
+                <p class="m-0 text-center">Got a question? Look no further. Browser our FAQs or submit your query here.</p>
+            </a>
+            <a href="" class="col-lg-3 col-md-5 d-flex p-3 flex-column justify-content-evenly align-items-center gap-3">
+                <i class="fa-solid fa-mobile-screen-button fs-1"></i>
+                <h1 class="m-0 fs-4 text-center">Shop on the go</h1>
+                <p class="m-0 text-center">Download the app and get exciting app only offers at your fingertips</p>
+            </a>
+        </div>
+        </div>
+    </section>
+
+    <section class="s7 mt-5">
+        <div class="container">
+            <div class="row w-100">
+                <div class="s7d1 col-3">
+                    <h1 class="m-0 fs-6 text-uppercase">Policy Info</h1>
+                    <ul class="p-0 mt-3">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms of initial-scale</a></li>
+                        <li><a href="">Terms of User</a></li>
+                        <li><a href="">Report Abuse & Takedown Policy</a></li>
+                        <li><a href="">Know Your BIS Standard</a></li>
+                        <li><a href="">Products Under Cumpulsory BIS</a></li>
+                        <li><a href="">Certification</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="s7d2 col-2">
+                    <h1 class="m-0 fs-6 text-uppercase">Company</h1>
+                    <ul class="p-0 mt-3">
+                        <li><a href="">Impact@Snapdeal</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Sitemap</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="s7d3 col-2">
+                    <h1 class="m-0 fs-6 text-uppercase">Snapdeal Business</h1>
+                    <ul class="p-0 mt-3">
+                        <li><a href="">Shopping App</a></li>
+                        <li><a href="">Sell on Snapdeal</a></li>
+                        <li><a href="">Media Enquiries</a></li>
+                    </ul>
+                </div>
+                <div class="s7d4 col-2">
+                    <h1 class="m-0 fs-6 text-uppercase">Popular Links</h1>
+                    <ul class="p-0 mt-3">
+                        <li><a href="">Lehenga</a></li>
+                        <li><a href="">Kid's Clothing</a></li>
+                        <li><a href="">Sarees</a></li>
+                        <li><a href="">Winter Wear</a></li>
+                    </ul>
+                </div>
+                <div class="s7d5 col-3">
+                    <h1 class="m-0 fs-6 text-uppercase">Subscribe</h1>
+                    <form action="" class="mt-4 d-flex justify-content-start">
+                        <input type="email" class="ps-2 border-0" placeholder="Your email address">
+                        <button type="submit" class="btn btn-dark rounded-0 ps-2 pe-2 p-0">Subscribe</button>
+                    </form>
+                    <p class="p-0 pt-3">Register now to get updates on promotions and coupons. <a href="" class="text-decoration-none">Or Download App</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s8 mt-5">
+        <hr>
+        <div class="container">
+            <div class="row mt-5 mb-5 w-100">
+                <div class="col-5">
+                    <h1 class="fs-5">Payment</h1>
+                    <div class="cards d-flex justify-content-start align-items-center gap-3">
+                        <i class="fa-regular fs-3 fa-credit-card"></i>
+                        <i class="fa-brands fs-3 fa-cc-mastercard"></i>
+                        <i class="fa-solid fs-2 fa-money-check"></i>
+                        <i class="fa-regular fs-2 fa-money-bill-1"></i>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <h1 class="fs-5">Connect</h1>
+                    <div class="links d-flex justify-content-start align-items-center gap-3">
+                        <a href="" class="text-decoration-none"><img src="./images/l1.png" alt=""></a>
+                        <a href="" class="text-decoration-none"><img src="./images/l2.png" alt=""></a>
+                        <a href="" class="text-decoration-none"><img src="./images/l3.png" alt=""></a>
+                        <a href="" class="text-decoration-none"><img src="./images/l4.png" alt=""></a>
+                        <a href="" class="text-decoration-none"><img src="./images/l5.png" alt=""></a>
+                        <a href="" class="text-decoration-none"><img src="./images/l6.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="s9">
+        <div class="container">
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Men</a><span>:</span><a href="">Shirts for Men</a><span>/</span><a href="">Casual Shirts for Men</a><span>/</span><a href="">Formal Shirts for Men</a><span>/</span><a href="">Hoodies for Men</a><span>/</span><a href="">Cotton Shirts for Men</a><span>/</span><a href="">T Shirts for Men</a><span>/</span><a href="">Polo T Shirts</a><span>/</span><a href="">Kurta Pajama for Men</a><span>/</span><a href="">White Shirt</a><span>/</span><a href="">Black Shirt</a><span>/</span><a href="">Lower for Men</a><span>/</span><a href="">Trousers for Men</a><span>/</span><a href="">Jacket for Men</a><span>/</span><a href="">Formal Pants for Mens</a><span>/</span><a href="">Tracksuit for Men</a><span>/</span><a href="">Jeans for Men</a><span>/</span><a href="">Kurta Payjama Sets</a><span>/</span><a href="">Kurta for Men</a><span>/</span><a href="">Blazer for Men</a><span>/</span><a href="">Sweater for Men</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Women</a><span>:</span><a href="">Tops for Women</a><span>/</span><a href="">Kurti</a><span>/</span><a href="">Cotton Sarees</a><span>/</span><a href="">Georgette Sarees</a><span>/</span><a href="">Chiffon Sarees</a><span>/</span><a href="">Net Sarees</a><span>/</span><a href="">Dresses for Women</a><span>/</span><a href="">Jumpsuit for Women</a><span>/</span><a href="">Jeans for Women</a><span>/</span><a href="">Salwar Suit</a><span>/</span><a href="">Bra</a><span>/</span><a href="">Jacket for Women</a><span>/</span><a href="">Night Dress for Women</a><span>/</span><a href="">Sweatshirt for Women</a><span>/</span><a href="">Shorts for Women</a><span>/</span><a href="">Readymade Biouse</a><span>/</span><a href="">Dupatta</a><span>/</span><a href="">T Shirt for Women</a><span>/</span><a href="">Shirts for Women</a><span>/</span><a href="">Skirts for Women</a><span>/</span><a href="">Ethnic wear for Women</a><span>/</span><a href="">Western Dresses for Women</a><span>/</span><a href="">Leggings for Women</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Footwear</a><span>:</span><a href="">Men's Footwear</a><span>/</span><a href="">Casual Shoes for Men</a><span>/</span><a href="">Formal Shoes for Men</a><span>/</span><a href="">Loafers for Men</a><span>/</span><a href="">Slippers for Men</a><span>/</span><a href="">Boots for Men</a><span>/</span><a href="">Sandals for Mens</a><span>/</span><a href="">Footwear for Women</a><span>/</span><a href="">Heels for Women</a><span>/</span><a href="">Sandals for Women</a><span>/</span><a href="">Shoes for Women</a><span>/</span><a href="">Slippers for Women</a><span>/</span><a href="">Boots for Women</a><span>/</span><a href="">Jutti for Women</a><span>/</span><a href="">Sports Shoes for Women</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Home & Kitchen</a><span>:</span><a href="">Wall Painting</a><span>/</span><a href="">Wall Stickers</a><span>/</span><a href="">Dream Catcher</a><span>/</span><a href="">Rangoli Designs</a><span>/</span><a href="">Clock</a><span>/</span><a href="">Wall Clock</a><span>/</span><a href="">Alarm Clock</a><span>/</span><a href="">Diya</a><span>/</span><a href="">Bean Bag</a><span>/</span><a href="">Laptop Table</a><span>/</span><a href="">Study Table</a><span>/</span><a href="">Wall Hanging</a><span>/</span><a href="">Ceiling Lights</a><span>/</span><a href="">Table Lamp</a><span>/</span><a href="">Hanging Lights</a><span>/</span><a href="">LED Bulbs</a><span>/</span><a href="">Torch Light</a><span>/</span><a href="">LED Lights</a><span>/</span><a href="">Flower Vase</a><span>/</span><a href="">Keychain</a><span>/</span><a href="">Rudraksha</a><span>/</span><a href="">Screwdriver</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Watch</a><span>:</span><a href="">Watch for Men</a><span>/</span><a href="">Womens Watches</a><span>/</span><a href="">Smart Watch</a><span>/</span><a href="">Boys Watch</a><span>/</span><a href="">Girls Watch</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Home Furnishing</a><span>:</span><a href="">Bed Sheet</a><span>/</span><a href="">Mosquito Net</a><span>/</span><a href="">Mattress</a><span>/</span><a href="">Curtains</a><span>/</span><a href="">Sofa Cover</a><span>/</span><a href="">Blanket</a><span>/</span><a href="">Pillow</a><span>/</span><a href="">Carpet</a><span>/</span><a href="">Apron</a><span>/</span><a href="">Quilt</a><span>/</span><a href="">Floor Mat</a><span>/</span><a href="">Towel</a><span>/</span><a href="">Pillow Cover</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Electronics</a><span>:</span><a href="">Bluetooth Speakers</a><span>/</span><a href="">Headphones</a><span>/</span><a href="">Earphone</a><span>/</span><a href="">Ceiling Fan</a><span>/</span><a href="">Geyers</a><span>/</span><a href="">Trimmer</a><span>/</span><a href="">Hair Straightner</a><span>/</span><a href="">Hair Dryer</a><span>/</span><a href="">Water Purifier</a><span>/</span><a href="">Mixer Grinder</a><span>/</span><a href="">Gas Stove</a><span>/</span><a href="">Electric Kettle</a><span>/</span><a href="">Computer Mouse</a><span>/</span><a href="">Computer Keyboard</a><span>/</span><a href="">USB & HDMI Cables</a><span>/</span><a href="">Computer Antivirus</a>
+            </div>
+            <div class="d-flex justify-content-start flex-wrap align-items-center gap-1">
+                <a href="" class="fw-bold">Mobiles Accessories</a><span>:</span><a href="">Mobile Covers</a><span>/</span><a href="">Leather Mobile Covers</a><span>/</span><a href="">Printed Back Covers</a><span>/</span><a href="">Tempered Glass</a>
+            </div>
+            <p class="mt-3">Snapdeal is India's leading pure-play value Ecommerce platform. Founded in 2010 by Kunal Bahl and Rohit Bansal, Snapdeal is one of the top four online lifestyle shopping destinations of India. Snapdeal brings together a wide assortment of good quality and value- priced merchandise on its platform. Snapdeal's vision is to enable the shoppers of Bharat to experience the joy of living their aspirations through reliable, value-for-money shopping. With a personalized, multilingual interface and cutting edge technology, Snapdeal has simplified the shopping experience for its value-conscious buyers by showcasing the most relevant products- products that are a good functional fit with their needs and of a quality that lasts- thereby delivering true value to its customers. With its commitment to high service standards, Snapdeal suppliers operate under a well structured ecosystem that enables them to offer great quality products at affordable prices. With majority of the value-seeking, middle-income, price-conscious buyers coming from the non-metros, Snapdeal’s logistics networks powered by third party logistics cover more than 96% of India’s pin codes enabling order deliveries to more than 2500 towns and cities and expanding. Further, Snapdeal's mission is to become India’s value lifestyle omni-channel leader. We are excited about continuing to build a complete ecosystem around value commerce, where we can serve Bharat consumers wherever they are on their offline to online shopping journey. Snapdeal is part of the AceVector Group and one of India’s best-known e-commerce companies with an exclusive focus on the value segment.</p>
+        </div>
+        <hr class="m-0 mt-3">
+    </section>
+
+    <footer class="mt-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <p>Copyright &copy;2021, Snapdeal Limited, All Rights Reserved</p>
+            <p>Made for Bharat &hearts;</p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".bi-chevron-right",
+            prevEl: ".bi-chevron-left",
+        },
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    $(document).ready(function() {
+    // Fetch product details
+    fetch('http://localhost:3000/products1/') // Replace with your API endpoint
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Assuming data is an array of products
+            displayProducts(data);
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+
+    // Function to display products in the slider
+    function displayProducts(products) {
+        const slider = $('.product-slider');
+
+        products.forEach(product => {
+            let star = "";
+            if(product.ImageRating >= 4.5)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                `;
+            }
+            else if(product.ImageRating >= 4)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3.5)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 2.5)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3)
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else
+            {
+                star += `
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+
+
+            const item = `
+                <a href="single-product.html?Id=${product.id}" class="text-decoration-none slider-item p-3">
+                    <img src="${product.ImageURL}" style="height:300px; width:100%;" alt="${product.ImageURL}" />
+                    <h3 class="mt-3" style="color:gray; font-size:14px; font-weight:normal;">${product.ImageTitle}</h3>
+                    <div style="color:orange; font-size:12px;" class="mt-3">${star}</div>
+                    <div class="d-flex mt-3 justify-content-start align-items-center gap-3">
+                        <span style="color:black;"><span style="text-decoration: line-through; color:gray;">Rs ${Math.round((product.ImagePrice/product.ImageOffer)*100)}</span> Rs ${product.ImagePrice}</span>
+                        <button style="border:1px solid gray; color:gray; background:white;">${product.ImageOffer}% Off</button>
+                    </div>
+                </a>
+            `;
+            slider.append(item);
+        });
+
+        // Initialize Slick slider
+        slider.slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            dots: false,
+            arrows: false
+        });
+    }
+});
+</script>
+<script>
+
+document.querySelector("#logout").addEventListener("click",()=>{
+        Swal.fire({
+            title: "Do you want to logout?",
+            icon: "question",
+            showCancelButton: true,
+            confirmButtonText: "Yes"
+        }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            localStorage.removeItem("email");
+            window.location.href = "signin.html";
+        }
+        });
+    })
+
+</script>
+<script>
+    $(document).ready(function() {
+    // Fetch product details
+    fetch('http://localhost:3000/products2/') // Replace with your API endpoint
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Assuming data is an array of products
+            displayProducts(data);
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+
+    // Function to display products in the slider
+    function displayProducts(products) {
+        const slider2 = $('.product-slider2');
+
+        products.forEach(product => {
+            let star2 = "";
+            if(product.ImageRating >= 4.5)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                `;
+            }
+            else if(product.ImageRating >= 4)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3.5)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 2.5)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else if(product.ImageRating >= 3)
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+            else
+            {
+                star2 += `
+                <i class='fa-solid fa-star'></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                `;
+            }
+
+
+            const item2 = `
+                <a href="single-product.html?Id=${product.id}" class="text-decoration-none slider-item p-3">
+                    <img src="${product.ImageURL}" style="height:300px; width:100%;" alt="${product.ImageURL}" />
+                    <h3 class="mt-3" style="color:gray; font-size:14px; font-weight:normal;">${product.ImageTitle}</h3>
+                    <div style="color:orange; font-size:12px;" class="mt-3">${star2}</div>
+                    <div class="d-flex mt-3 justify-content-start align-items-center gap-3">
+                        <span style="color:black;"><span style="text-decoration: line-through; color:gray;">Rs ${Math.round((product.ImagePrice/product.ImageOffer)*100)}</span> Rs ${product.ImagePrice}</span>
+                        <button style="border:1px solid gray; color:gray; background:white;">${product.ImageOffer}% Off</button>
+                    </div>
+                </a>
+            `;
+            slider2.append(item2);
+        });
+
+        // Initialize Slick slider
+        slider2.slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,  
+            autoplay: true,
+            autoplaySpeed: 1500,
+            dots: false,
+            arrows: false
+        });
+    }
+});
+</script>
+<script>
+
+let email = JSON.parse(localStorage.getItem("email"))
+        fetch(`http://localhost:3000/carts?UserEmailID=${email}`)
+    .then((res)=>res.json())
+    .then((res)=>{
+        if(res == "")
+        {
+            document.querySelector(".badge").innerHTML = "0";
+        }
+        else
+        {
+            let count = 0;
+            res.forEach((el,i)=>{
+                count++;
+            });
+            document.querySelector(".badge").innerHTML = count;
+        }
+    })
+    .catch((err)=>{
+        console.log(err);
+    })
+
+</script>
+<script>
+
+    let getEmail = JSON.parse(localStorage.getItem("email"));
+
+    fetch(`http://localhost:3000/users?email=${getEmail}`)
+    .then((res)=>res.json())
+    .then((res)=>{
+        if(res.length == 0)
+        {
+            document.querySelector("#user").innerHTML = "User";
+        }
+        else
+        {
+            let name = res[0].username.split(" ");
+            // console.log(name[0]);
+            document.querySelector("#user").innerHTML = name[0];
+        }
+        console.log(res);
+    })
+    .catch((err)=>{
+        console.log(err);
+    })
+
+
+</script>
+</html>
