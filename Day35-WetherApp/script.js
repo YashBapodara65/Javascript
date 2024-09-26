@@ -4,7 +4,7 @@ document.querySelector("button").addEventListener("click",weather_call);
 
 function weather_call()
 {
-    let c_name = document.querySelector("input").value;
+    let c_name = document.querySelector("#search-city").value;
     let city_name = "";
     let day = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     let month = ['Jan','Feb','Mar', 'Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -16,7 +16,7 @@ function weather_call()
     if(c_name == "")
     {
         city_name = "delhi";
-        document.querySelector("input").value = "delhi";
+        document.querySelector("#search-city").value = "delhi";
     }
     else
     {
